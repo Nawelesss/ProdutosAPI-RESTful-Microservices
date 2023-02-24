@@ -1,0 +1,35 @@
+package br.com.tech4me.estacionamento.shared;
+
+import jakarta.validation.constraints.Positive;
+
+public class EstacionamentoCompletoDto {
+    private String id;
+    private String bloco;
+    private String idCarro;
+    private String placa;
+
+    public String getId() {
+        return id;
+    }
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getNomeCliente() {
+        return nomeCliente;
+    }
+    public void setNomeCliente(String nomeCliente) {
+        this.nomeCliente = nomeCliente;
+    }
+    public String getIdPizza() {
+        return idPizza;
+    }
+    public void setIdPizza(String idPizza) {
+        this.idPizza = idPizza;
+    }
+    public Double getValor() {
+        return valor;
+    }
+    public void setValor(Double valor) {
+        this.valor = valor;
+    }
+}
